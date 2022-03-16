@@ -1,0 +1,71 @@
+:root {
+  /* --main-bg-color: rgb(35, 93, 116); */
+  /* --main-bg-color: rgb(78, 182, 223); */
+  --main-bg-color: rgb(0, 0, 0);
+  /* --secondary-bg-color: rgb(167, 65, 177); */
+  --secondary-bg-color: rgb(78, 112, 223);
+  /* --accent-color: rgb(78, 112, 223); */
+  --accent-color: rgb(167, 65, 177);
+}
+body {
+  background: radial-gradient(
+    circle,
+    var(--secondary-bg-color),
+    var(--main-bg-color)
+  );
+  /* background-image: url(""); */
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.actionsDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+/*  */
+
+/* User Tags */
+
+.clickable {
+  color: white;
+}
+.userTag {
+  background: radial-gradient(circle, var(--accent-color), var(--secondary-bg-color));
+  width: 24%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1%;
+}
+.button{
+  background: radial-gradient(circle, var(--accent-color), rgb(0, 0, 0));
+  width: 20%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1px;
+}
+.postTag {
+  background: radial-gradient(circle, var(--accent-color), var(--secondary-bg-color));
+  width: 24%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1%;
+}
+.userTagLeft {
+  width: 50%;
+}
+.userTagRight {
+  width: 50%;
+  background: black;
+}

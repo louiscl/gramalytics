@@ -1,0 +1,12 @@
+DROP table IF EXISTS users;
+DROP table IF EXISTS messages;
+DROP table IF EXISTS post_comments;
+DROP table IF EXISTS saved_posts;
+DROP table IF EXISTS viewed_posts;
+DROP table IF EXISTS liked_posts;
+DROP table IF EXISTS liked_comments;
+DROP table IF EXISTS account_searches;
+DROP table IF EXISTS phrase_searches;
+DROP table IF EXISTS suggested_accounts_viewed;
+DROP table IF EXISTS authors;
+DROP table IF EXISTS ads_viewed;
